@@ -1,0 +1,51 @@
+{
+    "name": "kminek/laravel-title",
+    "description": "Probably the easiest way to add dynamic HTML title to Laravel app",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "title",
+        "html"
+    ],
+    "homepage": "https://github.com/kminek/laravel-title",
+    "authors": [
+        {
+            "name": "Grzesiek W",
+            "email": "kontakt@kminek.pl"
+        }
+    ],
+    "require": {
+        "php": ">=8.2.0",
+        "illuminate/container": "11.*",
+        "illuminate/support": "11.*"
+    },
+    "require-dev": {
+        "laravel/pint": "1.20.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Kminek\\Title\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kminek\\Title\\TitleServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "cs-fix": [
+            "pint -v"
+        ]
+    }
+}

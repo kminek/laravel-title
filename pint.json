@@ -1,0 +1,43 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "phpdoc_summary": true,
+        "declare_strict_types": true,
+        "strict_param": true,
+        "global_namespace_import": true,
+        "trailing_comma_in_multiline": {
+            "after_heredoc": true,
+            "elements": [
+                "arguments",
+                "arrays",
+                "match",
+                "parameters"
+            ]
+        },
+        "native_function_invocation": {
+            "exclude": [],
+            "scope": "all"
+        },
+        "class_definition": {
+            "single_line": false,
+            "multi_line_extends_each_single_line": true
+        },
+        "class_attributes_separation": {
+            "elements": {
+                "const": "none",
+                "method": "one",
+                "property": "one",
+                "trait_import": "none",
+                "case": "none"
+            }
+        },
+        "multiline_whitespace_before_semicolons": {
+            "strategy": "new_line_for_chained_calls"
+        },
+        "header_comment": {
+            "header": "`kminek/laravel-title` source code file\n\n@link      https://github.com/kminek/laravel-title\n@copyright Copyright (c) 2025\n@license   MIT\n@author    Grzesiek W <kontakt@kminek.pl>",
+            "comment_type": "PHPDoc",
+            "location": "after_open"
+        }
+    }
+}
