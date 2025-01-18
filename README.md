@@ -73,14 +73,14 @@ Change default separator (` | `):
 Change default text (`config('app.name')`):
 
 ```html
-<title>{{ title()->default('MyCustomAppName') }}</title>
+<title>{{ title()->default('AppName') }}</title>
 ```
 
 Set a description which is displayed when no title is set inside
 controller action template:
 
-```
-<title>{{ title()->default('MyCustomAppName')->description('This app will blow your mind!') }}</title>
+```html
+<title>{{ title()->default('AppName')->description('This app will blow your mind!') }}</title>
 ```
 
 You are not required to use `@title()` Blade directive, you can call
