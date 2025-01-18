@@ -103,3 +103,16 @@ library directly which opens more possibilities:
 
 @endsection
 ```
+
+You can have multiple title "stacks" under different keys.
+Default stack is using "default" as a key, but you are free to create new ones:
+
+```html
+<title>{{ title('homepage') }}</title>
+```
+
+and later in Blade view:
+
+```html
+@php(title('homepage')->append('Register'))
+```
