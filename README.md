@@ -26,7 +26,7 @@ then run `composer update`
 
 ## Usage
 
-Modify your layout template (for example `resources/views/layouts/app.blade.php`):
+Modify your layout view (for example `resources/views/layouts/app.blade.php`):
 
 ```html
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ Modify your layout template (for example `resources/views/layouts/app.blade.php`
 </html>
 ```
 
-Modify your controller action template (for example `resources/views/auth/register.blade.php`):
+Modify your controller action view (for example `resources/views/auth/register.blade.php`):
 
 ```html
 @extends('layouts.app')
@@ -77,7 +77,7 @@ Change default text (`config('app.name')`):
 ```
 
 Set a description which is displayed when no title is set inside
-controller action template:
+controller action view:
 
 ```html
 <title>{{ title()->default('AppName')->description('This app will blow your mind!') }}</title>
