@@ -22,7 +22,7 @@ then run `composer update`
 
  Laravel | laravel-title
 :--------|:-------------
- 11.x    | 1.x
+ 11.x / 12.x | 1.x
 
 ## Usage
 
