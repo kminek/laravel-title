@@ -17,8 +17,8 @@
     ],
     "require": {
         "php": ">=8.2.0",
-        "illuminate/container": "11.*",
-        "illuminate/support": "11.*"
+        "illuminate/container": "11.*|12.*",
+        "illuminate/support": "11.*|12.*"
     },
     "require-dev": {
         "laravel/pint": "1.20.0"
