@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Container\BindingResolutionException;
-use Kminek\Title\Title;
-use Kminek\Title\TitleManager;
+use Kminek\LaravelTitle\Title;
+use Kminek\LaravelTitle\TitleManager;
 
 if (! \function_exists('title')) {
     /**

@@ -27,7 +27,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Kminek\\Title\\": "src/"
+            "Kminek\\LaravelTitle\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kminek\\Title\\TitleServiceProvider"
+                "Kminek\\LaravelTitle\\TitleServiceProvider"
             ]
         }
     },

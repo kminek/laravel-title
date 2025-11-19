@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Kminek\Title;
+namespace Kminek\LaravelTitle;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
