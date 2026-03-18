@@ -4,7 +4,7 @@
  * `kminek/laravel-title` source code file
  *
  * @link      https://github.com/kminek/laravel-title
- * @copyright Copyright (c) 2025
+ * @copyright Copyright (c) 2025-now
  * @license   MIT
  * @author    Grzesiek W <kontakt@kminek.pl>
  */

@@ -35,7 +35,7 @@
             "strategy": "new_line_for_chained_calls"
         },
         "header_comment": {
-            "header": "`kminek/laravel-title` source code file\n\n@link      https://github.com/kminek/laravel-title\n@copyright Copyright (c) 2025\n@license   MIT\n@author    Grzesiek W <kontakt@kminek.pl>",
+            "header": "`kminek/laravel-title` source code file\n\n@link      https://github.com/kminek/laravel-title\n@copyright Copyright (c) 2025-now\n@license   MIT\n@author    Grzesiek W <kontakt@kminek.pl>",
             "comment_type": "PHPDoc",
             "location": "after_open"
         }

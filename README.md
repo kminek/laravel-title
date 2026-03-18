@@ -13,15 +13,16 @@ composer require kminek/laravel-title
 or add this to `require` section in your `composer.json` file:
 
 ```bash
-"kminek/laravel-title": "^1.0"
+"kminek/laravel-title": "^3.0"
 ```
 
 then run `composer update`
 
 ### Version compatibility
 
- Laravel | laravel-title
+ `laravel/framework` | `kminek/laravel-title`
 :--------|:-------------
+ 13.x | 3.x
  11.x / 12.x | 1.x / 2.x
 
 ## Usage
